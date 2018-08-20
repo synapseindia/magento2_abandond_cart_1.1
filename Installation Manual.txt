@@ -1,0 +1,54 @@
+
+Installation instructions  - 
+--------------------------
+
+Please, follow the steps bellow to install the module in this way:
+
+1. Unzip extension archive.
+
+2. Upload "Synapseindia" folder from archive over FTP or SFTP to your Magento 2 "code" directory on the web-server.
+
+3. Run the commands in the Magento 2 directory via CLI:
+
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy
+
+
+
+-------------------------------------------------------
+
+
+
+Module Description - 
+
+INTRODUCTION:
+  Synapse Abandoned Cart extension provides admin an ease to get details regarding customers cart that are left abandoned  . 
+Admin received an email that contains all details regarding every store abandoned cart  .
+  
+
+Table of Contents
+
+1 . Abandoned cart list 
+2 . Module Configuration . 
+3 . Email to Admin 
+4 . Email to customer
+5 . Set number of reminders with custom templates
+
+
+1  Abandoned cart list  -                  Here Admin can list all details of abandoned cart . Also admin can download CSV from grid . 
+										  Also it provides admin to filter list using various sorting fields . 
+
+2 . Module Configuration - 
+                                          setting will allow to enable disable a module . Also you can define admin email to which list email will be received . 
+  
+
+3 . Email to Admin -                      Admin will receive list of abandoned cart through email . Email is sent to admin when cron runs . 
+
+4 . Email To customer -                   Customer who have left their cart with products unpuchased will receive email as reminder to proceed to checkout . 
+
+5 . Set number of reminders with custom templates -  Admin can set number of reminders that cusotmer will receive along with cusotmer email template . 											
+											
+
+
+
